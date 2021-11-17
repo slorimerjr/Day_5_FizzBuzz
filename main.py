@@ -7,6 +7,8 @@
 
 # >       `And if the number is divisible by both 3 and 5 e.g. 15 then instead of the number it should print "FizzBuzz"`
 for number in range(1, 101):
+  # technically line 12 should be:
+  # if number % 3 == 0 and number % 5 == 0:
   if number % 15 == 0:
     print("FizzBuzz")
   elif number % 5 == 0:
